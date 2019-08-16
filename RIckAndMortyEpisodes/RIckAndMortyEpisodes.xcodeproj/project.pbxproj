@@ -15,6 +15,7 @@
 		0CE5C7A72306561100FABFF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CE5C7A52306561100FABFF8 /* LaunchScreen.storyboard */; };
 		0CE5C7B22306561100FABFF8 /* RIckAndMortyEpisodesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE5C7B12306561100FABFF8 /* RIckAndMortyEpisodesTests.swift */; };
 		0CE5C7BD2306561100FABFF8 /* RIckAndMortyEpisodesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE5C7BC2306561100FABFF8 /* RIckAndMortyEpisodesUITests.swift */; };
+		0CE5C7CC230657D500FABFF8 /* Get Schwifty.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0CE5C7CB230657D500FABFF8 /* Get Schwifty.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0CE5C7B82306561100FABFF8 /* RIckAndMortyEpisodesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RIckAndMortyEpisodesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CE5C7BC2306561100FABFF8 /* RIckAndMortyEpisodesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RIckAndMortyEpisodesUITests.swift; sourceTree = "<group>"; };
 		0CE5C7BE2306561100FABFF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CE5C7CB230657D500FABFF8 /* Get Schwifty.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Get Schwifty.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		0CE5C7982306561000FABFF8 /* RIckAndMortyEpisodes */ = {
 			isa = PBXGroup;
 			children = (
+				0CE5C7CA2306579600FABFF8 /* Fonts */,
 				0CE5C7992306561000FABFF8 /* AppDelegate.swift */,
 				0CE5C79B2306561000FABFF8 /* ViewController.swift */,
 				0CE5C79D2306561000FABFF8 /* Main.storyboard */,
@@ -126,6 +129,14 @@
 				0CE5C7BE2306561100FABFF8 /* Info.plist */,
 			);
 			path = RIckAndMortyEpisodesUITests;
+			sourceTree = "<group>";
+		};
+		0CE5C7CA2306579600FABFF8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0CE5C7CB230657D500FABFF8 /* Get Schwifty.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CE5C7A72306561100FABFF8 /* LaunchScreen.storyboard in Resources */,
+				0CE5C7CC230657D500FABFF8 /* Get Schwifty.ttf in Resources */,
 				0CE5C7A42306561100FABFF8 /* Assets.xcassets in Resources */,
 				0CE5C79F2306561000FABFF8 /* Main.storyboard in Resources */,
 			);
